@@ -355,3 +355,41 @@
 .photo-card {
   position: relative;
 }
+
+/* ================= MOBILE HERO FIX ================= */
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 6% 60px; /* reduce top & side padding */
+    min-height: auto;
+    gap: 40px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem; /* smaller heading */
+    line-height: 1.25;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+    margin-top: 12px;
+  }
+
+  .hero-buttons {
+    flex-direction: column; /* stack buttons */
+    gap: 12px;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 10px;
+  }
+
+  .photo-card {
+    width: 220px;  /* smaller image */
+    height: 280px;
+  }
+}
