@@ -19,13 +19,13 @@ html {
 
 /* ===== HIDE SCROLLBAR BUT KEEP SCROLL ===== */
 
-/* Firefox */
+
 html,
 body {
   scrollbar-width: none;
 }
 
-/* Chrome, Edge, Safari */
+
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none;
@@ -35,10 +35,10 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: "Poppins", sans-serif;
-  overflow-y: auto; /* allow scrolling */
+  overflow-y: auto; 
 }
 
-/* Prevent horizontal scroll issues */
+
 #root {
   overflow-x: hidden;
 }

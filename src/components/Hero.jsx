@@ -4,11 +4,11 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-text">
-        <span className="hero-badge">👋 Welcome to my portfolio</span>
+        <span className="hero-badge"> Welcome to my portfolio</span>
 
         <h1>
           Hi There! <br />
-          I am <span className="highlight">Developer</span>
+          I am <span className="highlight"> Software Developer</span>
         </h1>
 
         <p className="hero-subtitle">

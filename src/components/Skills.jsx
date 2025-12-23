@@ -6,7 +6,7 @@ export default function Skills() {
       <div className="grid">
         <div className="card">
           <h3>Programming Languages</h3>
-          <p>Java, C, C++, C#, Python</p>
+          <p>Java, C, C++, C#, Python, React</p>
         </div>
 
         <div className="card">

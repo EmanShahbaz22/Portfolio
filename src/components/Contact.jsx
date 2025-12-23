@@ -11,12 +11,16 @@ export default function Contact() {
       <div className="contact-grid">
         <div className="contact-card">
           <h4>Email</h4>
-          <p>emanshahbaz26@gmail.com</p>
+          <a href="mailto:emanshahbaz26@gmail.com">
+            emanshahbaz26@gmail.com
+          </a>
         </div>
 
         <div className="contact-card">
           <h4>Phone</h4>
-          <p>0309-4390853</p>
+          <a href="tel:+923094390853">
+            +92 309 4390853
+          </a>
         </div>
 
         <div className="contact-card">
