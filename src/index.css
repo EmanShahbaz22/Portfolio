@@ -1,0 +1,44 @@
+:root {
+  --bg: #0b0f0d;
+  --card: #121816;
+  --primary: #1ecb8c;
+  --text: #ffffff;
+  --muted: #b5b5b5;
+  --border: rgba(255,255,255,0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== HIDE SCROLLBAR BUT KEEP SCROLL ===== */
+
+/* Firefox */
+html,
+body {
+  scrollbar-width: none;
+}
+
+/* Chrome, Edge, Safari */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+  overflow-y: auto; /* allow scrolling */
+}
+
+/* Prevent horizontal scroll issues */
+#root {
+  overflow-x: hidden;
+}
