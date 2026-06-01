@@ -8,7 +8,7 @@ export default function Hero() {
 
         <h1>
           Hi There! <br />
-          I am <span className="highlight"> Software Developer</span>
+          I am <span className="highlight"> Full Stack Developer</span>
         </h1>
 
         <p className="hero-subtitle">

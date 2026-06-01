@@ -40,16 +40,27 @@ export default function Projects() {
         </div>
 
         {/* Chatbot */}
-        <div className="card">
-          <h3>AI Chatbot Application</h3>
-          <span>React</span>
-          <p>
-            Developed an interactive chatbot using React that provides
-            real-time responses through intelligent conversation flow.
-            Focused on component-based architecture, clean UI, and smooth
-            user interaction.
-          </p>
-        </div>
+<div className="card">
+  <h3>AI Chatbot Application</h3>
+  <span>React</span>
+
+  <div className="project-links">
+    <a
+      href="https://chatteee-dun.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Live Demo ↗
+    </a>
+  </div>
+
+  <p>
+    Developed an interactive chatbot using React that provides
+    real-time responses through intelligent conversation flow.
+    Focused on component-based architecture, clean UI, and smooth
+    user interaction.
+  </p>
+</div>
 
         {/* SnapSecure AI */}
         <div className="card">
@@ -75,6 +86,21 @@ export default function Projects() {
             efficient text processing and clean data visualization.
           </p>
         </div>
+
+                {/* Photo GPS Cleaner */}
+        <div className="card">
+          <h3>Photo GPS Cleaner</h3>
+          <span>React • Python • FastAPI • Pillow • HEIF</span>
+          <p>
+            Developed a web application that removes GPS and location metadata
+            from image files, including HEIC/HEIF formats. Integrated a React
+            frontend with a FastAPI backend to provide secure and efficient
+            image processing while helping users protect their privacy before
+            sharing photos.
+          </p>
+        </div>
+
+
       </div>
     </section>
   );

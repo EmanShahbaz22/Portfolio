@@ -6,7 +6,7 @@ export default function Education() {
       <div className="card">
         <h3>BS Information Technology (2022–2026)</h3>
         <p>PUCIT, University of the Punjab</p>
-        <span>7th Semester</span>
+        <span>3.38/4.00</span>
       </div>
 
       <div className="card">

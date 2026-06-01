@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import FeaturedProject from "./components/FeaturedProject";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Hero />
       <About />
       <Education />
+      <FeaturedProject />
       <Projects />
       <Skills />
       <Contact />
