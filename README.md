@@ -1,6 +1,37 @@
-## React Portfolio Website
+# Personal Portfolio
 
-This is a personal portfolio website built using React and modern CSS.  
-It showcases my academic background, technical skills, and projects as an Information Technology undergraduate.
+A modern and responsive portfolio website built with React and Vite to showcase my projects, skills, and experience as a Full Stack Developer.
 
-The website features a clean and responsive design, smooth navigation, and a modern UI to provide a professional presentation of my work and experience.
+## Live Demo
+
+🔗 https://portfolio-ten-rho-l50p3bdwng.vercel.app/
+
+## Tech Stack
+
+* React
+* JavaScript
+* HTML
+* CSS
+* Vite
+
+## Featured Project
+
+### EduVerse AI – AI-Powered Multi-Tenant E-Learning Platform
+
+**Tech Stack:** Angular, Python, FastAPI, MongoDB, LangChain, LLMs, AWS
+
+* Frontend: https://eduverse-ai-app.vercel.app/
+* Backend API: https://eduverse-ai-main-backend.onrender.com/docs
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Contact
+
+* LinkedIn: https://www.linkedin.com/in/eman-shahbaz-702b67348
+* GitHub: https://github.com/EmanShahbaz22
+* Email: [emanshahbaz26@gmail.com](mailto:emanshahbaz26@gmail.com)
