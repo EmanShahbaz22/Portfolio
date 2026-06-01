@@ -19,13 +19,13 @@ export default function FeaturedProject() {
             Live Demo ↗
           </a>
 
-          <a
+          {/* <a
             href="https://eduverse-ai-main-backend.onrender.com/docs"
             target="_blank"
             rel="noopener noreferrer"
           >
             Backend API ↗
-          </a>
+          </a> */}
         </div>
 
         <p>

@@ -1,9 +1,116 @@
+
 export default function Projects() {
   return (
     <section id="projects" className="section">
       <h2>Projects</h2>
 
       <div className="grid">
+
+        {/* Chatbot */}
+        <div className="card">
+          <h3>AI Chatbot Application</h3>
+          <span>React</span>
+
+          <div className="project-links">
+            <a
+              href="https://chatteee-dun.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+          </div>
+
+          <p>
+            Developed an interactive chatbot using React that provides
+            real-time responses through intelligent conversation flow.
+            Focused on component-based architecture, clean UI, and smooth
+            user interaction.
+          </p>
+        </div>
+
+        {/* SnapSecure AI */}
+        <div className="card">
+          <h3>SnapSecure AI – Screenshot Privacy Protector</h3>
+          <span>React • Python • OCR • AI/ML • Security</span>
+
+          <div className="project-links">
+            <a
+              href="https://snap-secure-ai.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+          </div>
+
+          <p>
+            An AI-powered security application designed to protect sensitive
+            information in screenshots. Utilizes OCR (Tesseract) to extract
+            text from images and AI/ML-based pattern recognition to detect
+            passwords, credit cards, API keys, and other confidential data,
+            applying automatic blurring to prevent accidental data leaks.
+          </p>
+        </div>
+
+        {/* TopicLens */}
+        <div className="card">
+          <h3>TopicLens – AI Text Analyzer</h3>
+          <span>React • Python • API</span>
+
+          <div className="project-links">
+            <a
+              href="https://topic-lens-ai-detector.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+          </div>
+
+          <p>
+            An AI-driven web application that analyzes text and documents to
+            extract key topics, important keywords, and sentiment. Built using
+            a React frontend and Python-based API backend, with a focus on
+            efficient text processing and clean data visualization.
+          </p>
+        </div>
+
+        {/* Photo GPS Cleaner */}
+        <div className="card">
+          <h3>Photo GPS Cleaner</h3>
+          <span>React • Python • FastAPI • Pillow • HEIF</span>
+
+          <div className="project-links">
+            <a
+              href="https://photo-gps-cleaner.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+          </div>
+
+          <p>
+            Developed a web application that removes GPS and location metadata
+            from image files, including HEIC/HEIF formats. Integrated a React
+            frontend with a FastAPI backend to provide secure and efficient
+            image processing while helping users protect their privacy before
+            sharing photos.
+          </p>
+        </div>
+
+        {/* E-Commerce & Weather App */}
+        <div className="card">
+          <h3>E-Commerce & Weather Applications</h3>
+          <span>Dart</span>
+          <p>
+            Developed a responsive E-Commerce application with product listings
+            and a modern user interface, along with a Weather application using
+            real-time API integration to display live weather data accurately.
+          </p>
+        </div>
+
         {/* Library Management System */}
         <div className="card">
           <h3>Library Management System</h3>
@@ -27,79 +134,6 @@ export default function Projects() {
             and performance.
           </p>
         </div>
-
-        {/* E-Commerce & Weather App */}
-        <div className="card">
-          <h3>E-Commerce & Weather Applications</h3>
-          <span>Dart</span>
-          <p>
-            Developed a responsive E-Commerce application with product listings
-            and a modern user interface, along with a Weather application using
-            real-time API integration to display live weather data accurately.
-          </p>
-        </div>
-
-        {/* Chatbot */}
-<div className="card">
-  <h3>AI Chatbot Application</h3>
-  <span>React</span>
-
-  <div className="project-links">
-    <a
-      href="https://chatteee-dun.vercel.app/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Live Demo ↗
-    </a>
-  </div>
-
-  <p>
-    Developed an interactive chatbot using React that provides
-    real-time responses through intelligent conversation flow.
-    Focused on component-based architecture, clean UI, and smooth
-    user interaction.
-  </p>
-</div>
-
-        {/* SnapSecure AI */}
-        <div className="card">
-          <h3>SnapSecure AI – Screenshot Privacy Protector</h3>
-          <span>React • Python • OCR • AI/ML • Security</span>
-          <p>
-            An AI-powered security application designed to protect sensitive
-            information in screenshots. Utilizes OCR (Tesseract) to extract
-            text from images and AI/ML-based pattern recognition to detect
-            passwords, credit cards, API keys, and other confidential data,
-            applying automatic blurring to prevent accidental data leaks.
-          </p>
-        </div>
-
-        {/* TopicLens */}
-        <div className="card">
-          <h3>TopicLens – AI Text Analyzer</h3>
-          <span>React • Python • API</span>
-          <p>
-            An AI-driven web application that analyzes text and documents to
-            extract key topics, important keywords, and sentiment. Built using
-            a React frontend and Python-based API backend, with a focus on
-            efficient text processing and clean data visualization.
-          </p>
-        </div>
-
-                {/* Photo GPS Cleaner */}
-        <div className="card">
-          <h3>Photo GPS Cleaner</h3>
-          <span>React • Python • FastAPI • Pillow • HEIF</span>
-          <p>
-            Developed a web application that removes GPS and location metadata
-            from image files, including HEIC/HEIF formats. Integrated a React
-            frontend with a FastAPI backend to provide secure and efficient
-            image processing while helping users protect their privacy before
-            sharing photos.
-          </p>
-        </div>
-
 
       </div>
     </section>
