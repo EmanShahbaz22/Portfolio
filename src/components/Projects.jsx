@@ -16,7 +16,7 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo ↗
+              Live Demo 
             </a>
           </div>
 
@@ -39,7 +39,7 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo ↗
+              Live Demo 
             </a>
           </div>
 
@@ -63,7 +63,7 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo ↗
+              Live Demo 
             </a>
           </div>
 
@@ -86,7 +86,7 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo ↗
+              Live Demo 
             </a>
           </div>
 
@@ -110,7 +110,7 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo ↗
+              Live Demo 
             </a>
           </div>
 
@@ -155,7 +155,7 @@ export default function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Live Demo ↗
+              Live Demo 
             </a>
           </div>
 

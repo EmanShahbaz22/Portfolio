@@ -16,7 +16,7 @@ export default function FeaturedProject() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo ↗
+            Live Demo 
           </a>
 
           {/* <a
