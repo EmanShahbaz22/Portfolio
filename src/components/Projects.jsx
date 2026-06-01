@@ -1,4 +1,3 @@
-
 export default function Projects() {
   return (
     <section id="projects" className="section">
@@ -100,10 +99,21 @@ export default function Projects() {
           </p>
         </div>
 
-        {/* E-Commerce & Weather App */}
+        {/* E-Commerce & Weather Applications */}
         <div className="card">
           <h3>E-Commerce & Weather Applications</h3>
           <span>Dart</span>
+
+          <div className="project-links">
+            <a
+              href="https://wonderful-bonbon-503b73.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+          </div>
+
           <p>
             Developed a responsive E-Commerce application with product listings
             and a modern user interface, along with a Weather application using
@@ -115,6 +125,17 @@ export default function Projects() {
         <div className="card">
           <h3>Library Management System</h3>
           <span>Java</span>
+
+          {/* <div className="project-links">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code ↗
+            </a>
+          </div> */}
+
           <p>
             Developed a Java-based system to manage library operations including
             book inventory, user records, and borrowing/return tracking.
@@ -127,6 +148,17 @@ export default function Projects() {
         <div className="card">
           <h3>E-Learning Platform</h3>
           <span>C#</span>
+
+          <div className="project-links">
+            <a
+              href="https://neon-malabi-7e9cd2.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+          </div>
+
           <p>
             Built an online learning platform using C# that allows students to
             register, access courses, and track their learning progress.
